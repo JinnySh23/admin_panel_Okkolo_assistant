@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UI Dataset Okkolo AI</title>
+    
+    <meta charset="utf-8">
+
+    <!-- For correct display on the smartphone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" type="image/x-icon" href="/assets/image/favicon.ico">
+
+    <!-- Connecting the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <!-- Connecting Jquery -->
+    <script type="text/javascript" src="/assets/js/jquery-3.7.0.min.js"></script>
+
+    <!-- Connecting Core -->
+    <script type="text/javascript" src="/assets/js/core.js"></script>
+    
+    <!-- Connecting lord_panel.js -->
+    <script type="text/javascript" src="/assets/js/lord_panel.js"></script>
+</head>
+<body>
+    <!-- Main container -->
+    <div class="main-container">
+        <div class="main-content">
+
+            <div id="box-error" class="error__admin">
+                <p></p>
+                <button id="box-message-close">Закрыть</button>
+            </div>
+
+            <h1>Редактор датасета для Окколо ассистента</h1>
+
+            <div class="block__main">
+                <button class="small" id="button-logout">Выйти</button>
+
+                <hr>
+                <h1 style="margin-bottom: 10px;">Просмотр данных</h1>
+                <button id="button-get-dataset">Посмотреть датасет</button>
+                <div class="dataset-info" id="box-dataset-info"></div>
+
+                <hr>
+                <h1>Добавление данных</h1>
+                <p>Добавить вопрос</p>
+                <input id="input-question" placeholder="Введите вопрос">
+                <p>Добавить на него ответ</p>
+                <input id="input-answer" placeholder="Введите ответ на вопрос">
+                <button class="long" id="button-add-data-dataset">Внести данные в датасет</button>
+
+                <hr>
+                <h1>Удаление данных</h1>
+                <p>Введите номер строки</p>
+                <input id="input-str-index" placeholder="Введите номер строки">
+                <button class="long" id="button-del-data-dataset">Удалить строку из датасета</button>
+            </div>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
